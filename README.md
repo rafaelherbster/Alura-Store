@@ -141,6 +141,7 @@ Com base nos dados analisados, a Loja 4 se destaca negativamente em vários indi
 Portanto, recomenda-se que o Sr. João considere liquidar a Loja 4 para levantar capital para o novo investimento, mantendo as outras três lojas que apresentam desempenho superior.
 
 Considerações Finais
+
 Antes de tomar a decisão final, sugere-se uma análise adicional sobre custos fixos e variáveis de cada loja, bem como a localização e potencial de crescimento. No entanto, com os dados disponíveis, a Loja 4 é a candidata mais adequada para liquidação.
 
 # 🤝 Como Contribuir
