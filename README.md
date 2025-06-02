@@ -13,16 +13,16 @@ Tratamento de Erros: Funções com tratamento de exceções para garantir robust
 Valores Monetários: Exibe valores em reais (R$) sem problemas de formatação no Google Colab.
 
 # 🛠️ Tecnologias Utilizadas
-Python 3: Linguagem principal para análise de dados.
-Pandas: Manipulação e análise de dados em DataFrames.
-Matplotlib: Geração de gráficos para visualização do ticket médio.
-Google Colab: Ambiente de execução do notebook.
+- Python 3: Linguagem principal para análise de dados.
+- Pandas: Manipulação e análise de dados em DataFrames.
+- Matplotlib: Geração de gráficos para visualização do ticket médio.
+- Google Colab: Ambiente de execução do notebook.
 
 # 📋 Pré-requisitos
 Para executar o projeto localmente, você precisará de:
 
-Python 3.8 ou superior.
-Bibliotecas Python:
+- Python 3.8 ou superior.
+- Bibliotecas Python:
 ```bash
 pip install pandas matplotlib
 ```
@@ -37,27 +37,17 @@ git clone https://github.com/rafaelherbster/Alura-Store.git
 # 📊 Dados
 Os dados são provenientes de quatro arquivos CSV (loja_1.csv, loja_2.csv, loja_3.csv, loja_4.csv) hospedados no repositório da Alura. Cada arquivo contém as seguintes colunas:
 
-Produto: Nome do produto vendido.
-
-Categoria do Produto: Categoria (ex.: eletrônicos, móveis).
-
-Preço: Valor do produto em reais (R$).
-
-Frete: Custo do frete em reais (R$).
-
-Data da Compra: Data da transação.
-
-Vendedor: Nome do vendedor.
-
-Local da compra: Estado (ex.: SP, RJ).
-
-Avaliação da compra: Nota de 1 a 5.
-
-Tipo de pagamento: Método de pagamento (ex.: cartão de crédito, boleto).
-
-Quantidade de parcelas: Número de parcelas.
-
-lat e lon: Coordenadas geográficas do local da compra.
+- Produto: Nome do produto vendido.
+- Categoria do Produto: Categoria (ex.: eletrônicos, móveis).
+- Preço: Valor do produto em reais (R$).
+- Frete: Custo do frete em reais (R$).
+- Data da Compra: Data da transação.
+- Vendedor: Nome do vendedor.
+- Local da compra: Estado (ex.: SP, RJ).
+- Avaliação da compra: Nota de 1 a 5.
+- Tipo de pagamento: Método de pagamento (ex.: cartão de crédito, boleto).
+- Quantidade de parcelas: Número de parcelas.
+- lat e lon: Coordenadas geográficas do local da compra.
 
 # 📈 Resultados
 Faturamento: A função faturar() calcula o faturamento total por loja e exibe uma tabela com:
