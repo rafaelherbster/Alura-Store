@@ -50,26 +50,98 @@ Os dados são provenientes de quatro arquivos CSV (loja_1.csv, loja_2.csv, loja_
 - lat e lon: Coordenadas geográficas do local da compra.
 
 # 📈 Resultados
-Faturamento: A função faturar() calcula o faturamento total por loja e exibe uma tabela com:
-Faturamento em reais (R$).
-Percentual do faturamento total.
-Faturamento acumulado e percentual acumulado.
-Ticket Médio: A função grafico_ticketMedio() gera um gráfico de barras mostrando o ticket médio por loja.
-Exemplo de Saída
+Análise dos Resultados
+1. Faturamento Total
+- Loja 1: R\$ 1.616.346,99 (26,14% do total)
+- Loja 2: R\$ 1.567.773,29 (25,35% do total)
+- Loja 3: R\$ 1.542.047,52 (24,93% do total)
+- Loja 4: R\$ 1.458.253,56 (23,58% do total)
+  
+Observação: A Loja 4 apresenta o menor faturamento total, contribuindo com apenas 23,58% do faturamento combinado das quatro lojas.
 
-| Loja   | Faturamento (R$) | %     | Acumulado (R$) | %Acumulado |
-|--------|------------------|-------|----------------|------------|
-| Loja 1 | 1,616,346.99     | 26.14 | 1,616,346.99   | 26.14      |
-| Loja 2 | 1,567,773.29     | 25.35 | 3,184,120.28   | 51.49      |
-| Loja 3 | 1,542,047.52     | 24.93 | 4,726,167.80   | 76.42      |
-| Loja 4 | 1,458,253.56     | 23.58 | 6,184,421.36   | 100.00     |
+2. Vendas por Categoria
+- Moveis: Loja 3 (499 vendas) e Loja 4 (480 vendas)
+- Eletrônicos: Loja 1 (448 vendas) e Loja 4 (451 vendas)
+- Brinquedos: Loja 4 (338 vendas)
+- Eletrodomésticos: Loja 4 (254 vendas, a menor entre todas)
+  
+Observação: A Loja 4 tem desempenho variável por categoria, com destaque negativo em eletrodomésticos.
 
-(Valores formatados com R\$ no README para evitar problemas de renderização no Colab.)
+3. Média de Avaliação dos Clientes
+- Loja 1: 3,98
+- Loja 2: 4,04
+- Loja 3: 4,05
+- Loja 4: 4,00
+  
+Observação: A Loja 1 tem a menor média de avaliação, embora todas estejam próximas.
+
+4. Produtos Mais Vendidos
+- Loja 1: Micro-ondas (60 vendas)
+- Loja 2: Livro "Iniciando em programação" (65 vendas)
+- Loja 3: Kit banquetas (57 vendas)
+- Loja 4: Cama box (62 vendas)
+  
+5. Produtos Menos Vendidos
+- Loja 1: Headset (33 vendas)
+- Loja 2: Jogo de tabuleiro (32 vendas)
+- Loja 3: Blocos de montar (35 vendas)
+- Loja 4: Guitarra (33 vendas)
+  
+Observação: A Loja 2 tem o produto menos vendido (Jogo de tabuleiro com 32 vendas).
+
+6. Frete Médio
+- Loja 1: R\$ 34,69
+- Loja 2: R\$ 33,62
+- Loja 3: R\$ 33,07
+- Loja 4: R\$ 31,28
+  
+Observação: A Loja 4 tem o menor frete médio, o que pode indicar eficiência logística ou localização vantajosa.
+
+7. Ticket Médio
+- Loja 1: R\$ 685,18
+- Loja 2: R\$ 664,59
+- Loja 3: R\$ 653,69
+- Loja 4: R\$ 618,43
+  
+Observação: A Loja 4 tem o menor ticket médio, indicando que os clientes gastam menos por compra.
+
+8. Total de Vendas
+- Loja 1: 2359 vendas
+- Loja 2: 2359 vendas
+- Loja 3: 2359 vendas
+- Loja 4: 2358 vendas
+  
+Observação: A Loja 4 tem uma venda a menos que as outras, diferença insignificante.
 
 # 📷 Demonstração
-O gráfico de ticket médio é gerado usando Matplotlib e exibido no notebook. Para visualizar, execute a função grafico_ticketMedio() no ambiente do Colab ou Jupyter.
+O gráfico do faturamento é gerado usando Matplotlib e exibido no notebook. Para visualizar, execute a função `grafico_faturamento(lista)` no ambiente do Colab ou Jupyter.
 
-(Adicione capturas de tela do gráfico ou da tabela ao repositório, se desejar.)
+<img src="https://github.com/rafaelherbster/Alura-Store/blob/main/src/grafico_pizza_faturamento.png" alt="gráfico de pizza, informando as porcentagens do faturamento de cada loja e seu respectivo valor em relação ao faturamento total.">
+
+O gráfico da média de avaliação por loja é gerado usando Matplotlib e exibido no notebook. Para visualizar, execute a função `grafico_med_avalicao(lista)` no ambiente do Colab ou Jupyter.
+
+<img src="https://github.com/rafaelherbster/Alura-Store/blob/main/src/grafico_dot_plot_avaliacao.png" alt="gráfico dot plot, informando as médias de avaliação de cada loja.">
+
+O gráfico da média do frete é gerado usando Matplotlib e exibido no notebook. Para visualizar, execute a função `grafico_med_frete(lista)` no ambiente do Colab ou Jupyter.
+
+<img src="https://github.com/rafaelherbster/Alura-Store/blob/main/src/grafico_dot_plot_frete.png" alt="gráfico dot plot, informando as médias do valor do frete de cada loja.">
+
+O gráfico de ticket médio é gerado usando Matplotlib e exibido no notebook. Para visualizar, execute a função `grafico_ticketMedio()` no ambiente do Colab ou Jupyter.
+
+<img src="https://github.com/rafaelherbster/Alura-Store/blob/main/src/grafico_barras_ticket_medio.png" alt="gráfico de barras, informando o valor do ticket médio de cada loja.">
+
+# ✏️ Conclusão e Recomendação
+Com base nos dados analisados, a Loja 4 se destaca negativamente em vários indicadores:
+
+- Menor faturamento total (23,58% do total).
+- Menor ticket médio (R$ 618,43), indicando menor valor por venda.
+- Desempenho inferior em categorias como eletrodomésticos (254 vendas, a menor entre todas).
+- Apesar de ter o menor frete médio, o que pode ser um ponto positivo, os demais indicadores sugerem que a Loja 4 é a menos lucrativa.
+
+Portanto, recomenda-se que o Sr. João considere liquidar a Loja 4 para levantar capital para o novo investimento, mantendo as outras três lojas que apresentam desempenho superior.
+
+Considerações Finais
+Antes de tomar a decisão final, sugere-se uma análise adicional sobre custos fixos e variáveis de cada loja, bem como a localização e potencial de crescimento. No entanto, com os dados disponíveis, a Loja 4 é a candidata mais adequada para liquidação.
 
 # 🤝 Como Contribuir
 Faça um fork do repositório.
