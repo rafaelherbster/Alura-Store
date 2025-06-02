@@ -166,6 +166,7 @@ Este projeto está licenciado sob a MIT License.
 
 # 🙌 Agradecimentos
 À Alura pelo Challenge Data Science e pelos dados fornecidos.
+
 À comunidade Python pelas bibliotecas Pandas e Matplotlib.
 
 # 💡 Nota sobre Formatação de Valores Monetários no Google Colab
