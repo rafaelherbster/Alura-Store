@@ -170,7 +170,7 @@ Este projeto está licenciado sob a MIT License.
 À comunidade Python pelas bibliotecas Pandas e Matplotlib.
 
 # 💡 Nota sobre Formatação de Valores Monetários no Google Colab
-Para evitar que o caractere $ seja interpretado como LaTeX no Google Colab, use "\$" , como R\$. Exemplo em uma célula de texto:
+Para evitar que o caractere $ seja interpretado como LaTeX no Google Colab, use `\$` , como R\$. Exemplo em uma célula de texto:
 
 ```markdown
 O faturamento é R\$1,616,346.99.
