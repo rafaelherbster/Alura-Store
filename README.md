@@ -5,12 +5,20 @@ Bem-vindo ao Alura Store - Análise de Vendas, um projeto de ciência de dados d
 # 📖 Sobre o Projeto
 O projeto utiliza dados de vendas das lojas do sr. João, contendo informações como produto, preço, frete, data da compra, vendedor, localização e avaliações. O objetivo é realizar uma análise exploratória para calcular o faturamento total de cada loja e o ticket médio, além de gerar visualizações para insights sobre o desempenho das vendas.
 
+A proposta do projeto é criar insights com os dados disponíveis e qualificar qual das loja o sr. João deve liquidar para levantar capital para um novo projeto.
+
 # 🚀 Funcionalidades
-Importação de Dados: Carrega dados de vendas de quatro lojas a partir de arquivos CSV hospedados no GitHub.
-Cálculo de Faturamento: Calcula o faturamento total (preço + frete) de cada loja e exibe uma tabela com valores absolutos, percentuais e acumulados.
-Ticket Médio: Calcula o ticket médio por loja e gera um gráfico de barras para visualização.
-Tratamento de Erros: Funções com tratamento de exceções para garantir robustez na análise.
-Valores Monetários: Exibe valores em reais (R$) sem problemas de formatação no Google Colab.
+- Importação de Dados: Carrega dados de vendas de quatro lojas a partir de arquivos CSV hospedados no GitHub.
+- Cálculo de Faturamento: Calcula o faturamento total (preço + frete) de cada loja e exibe uma tabela com valores absolutos, percentuais e acumulados.
+- Vendas por Categoria: Exibe valores do total de vendas de cada loja por categoria.
+- Cálculo da Média de Avaliações: Calcula o valor da média de avaliações por loja.
+- Produtos Mais Vendidos: Exibe os produtos mais vendidos e sua categoria por loja.
+- Produtos Menos Vendidos: Exibe os produtos menos vendidos e sua categoria por loja.
+- Cálculo da Média do Frete: Calcula o valor gasto com frete de cada loja.
+- Ticket Médio: Calcula o ticket médio por loja e gera um gráfico de barras para visualização.
+- Cálculo do Total de Vendas: Calcula o total de vendas de cada loja.
+- Tratamento de Erros: Funções com tratamento de exceções para garantir robustez na análise.
+- Valores Monetários: Exibe valores em reais (R$) sem problemas de formatação no Google Colab.
 
 # 🛠️ Tecnologias Utilizadas
 - Python 3: Linguagem principal para análise de dados.
