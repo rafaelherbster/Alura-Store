@@ -127,12 +127,19 @@ O gráfico do faturamento é gerado usando Matplotlib e exibido no notebook. Par
 <img src="https://github.com/rafaelherbster/Alura-Store/blob/main/src/grafico_pizza_faturamento.png" alt="gráfico de pizza, informando as porcentagens do faturamento de cada loja e seu respectivo valor em relação ao faturamento total.">
 
 O gráfico da média de avaliação por loja é gerado usando Matplotlib e exibido no notebook. Para visualizar, execute a função `grafico_med_avalicao(lista)` no ambiente do Colab ou Jupyter.
+O gráfico foi aprimorado para que, independente da quantidade de lojas, ele sempre exiba os gráficos corretamente. 
 
-<img src="https://github.com/rafaelherbster/Alura-Store/blob/main/src/grafico_dot_plot_avaliacao.png" alt="gráfico dot plot, informando as médias de avaliação de cada loja.">
+<img src="https://github.com/Bainazz/Alura-Store-Herbster/blob/main/src/media_avaliacao_loja1.png" alt="gráfico dot plot, informando as médias de avaliação da loja 1.">
+<img src="https://github.com/Bainazz/Alura-Store-Herbster/blob/main/src/media_avaliacao_loja2.png" alt="gráfico dot plot, informando as médias de avaliação da loja 2.">
+<img src="https://github.com/Bainazz/Alura-Store-Herbster/blob/main/src/media_avaliacao_loja3.png" alt="gráfico dot plot, informando as médias de avaliação da loja 3.">
+<img src="https://github.com/Bainazz/Alura-Store-Herbster/blob/main/src/media_avaliacao_loja4.png" alt="gráfico dot plot, informando as médias de avaliação da loja 4.">
 
 O gráfico da média do frete é gerado usando Matplotlib e exibido no notebook. Para visualizar, execute a função `grafico_med_frete(lista)` no ambiente do Colab ou Jupyter.
 
-<img src="https://github.com/rafaelherbster/Alura-Store/blob/main/src/grafico_dot_plot_frete.png" alt="gráfico dot plot, informando as médias do valor do frete de cada loja.">
+<img src="https://github.com/Bainazz/Alura-Store-Herbster/blob/main/src/media_frete_loja1.png" alt="gráfico dot plot, informando as médias do valor do frete da loja 1.">
+<img src="https://github.com/Bainazz/Alura-Store-Herbster/blob/main/src/media_frete_loja2.png" alt="gráfico dot plot, informando as médias do valor do frete da loja 2.">
+<img src="https://github.com/Bainazz/Alura-Store-Herbster/blob/main/src/media_frete_loja3.png" alt="gráfico dot plot, informando as médias do valor do frete da loja 3.">
+<img src="https://github.com/Bainazz/Alura-Store-Herbster/blob/main/src/media_frete_loja4.png" alt="gráfico dot plot, informando as médias do valor do frete da loja 4.">
 
 O gráfico de ticket médio é gerado usando Matplotlib e exibido no notebook. Para visualizar, execute a função `grafico_ticketMedio()` no ambiente do Colab ou Jupyter.
 
