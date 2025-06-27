@@ -187,7 +187,7 @@ Este projeto está licenciado sob a MIT License.
 
 À comunidade Python pelas bibliotecas Pandas e Matplotlib.
 
-Agradecimento ao amigo www.linkedin.com/in/bainazz como contributor. 
+Agradecimento ao amigo [Baina](www.linkedin.com/in/bainazz) como contributor. 
 
 # 💡 Nota sobre Formatação de Valores Monetários no Google Colab
 Para evitar que o caractere $ seja interpretado como LaTeX no Google Colab, use `\$` , como R\$. Exemplo em uma célula de texto:
