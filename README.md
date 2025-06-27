@@ -32,7 +32,10 @@ Para executar o projeto localmente, você precisará de:
 - Python 3.8 ou superior.
 - Bibliotecas Python:
 ```bash
-pip install pandas matplotlib
+pip install pandas as pd
+```
+```bash
+pip install matplotlib.pyplot as plt
 ```
 Opcional: Google Colab para executar o notebook diretamente no navegador.
 Acesso à internet para carregar os dados dos arquivos CSV hospedados no GitHub.
